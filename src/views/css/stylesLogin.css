@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #66D2CE;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    padding: 20px;
+    background-color: #2DAA9E;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+    width: 55%;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #94E3DF; 
+    color: #004D4A;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #227A75;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    background: #227A75;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 90%;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #1A5E5A;
+}
+
+.image-container {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.message {
+    margin-top: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.success {
+    background-color: #227A75;
+    color: #ffffff;
+}
+
+.error {
+    background-color: #a83232; 
+    color: #ffffff;
+}
+
+.form-footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.form-footer a {
+    color: #004D4A;
+    text-decoration: none;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
